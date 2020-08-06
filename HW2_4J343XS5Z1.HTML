@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Week2 Assignment
+	</title>
+</head>
+<body>
+ <h3 id="yes">Before Click</h3>
+ <button id="great">GET DATE</button>
+ <h3 id="date"></h3>
+ <script type="text/javascript">
+ 	document.getElementById("great").addEventListener("click", function()
+ 	{
+ 		document.getElementById("date").innerHTML=Date()
+ 		document.getElementById("yes").innerHTML='After Click'
+ 	})
+ </script>
+</body>
+</html>
